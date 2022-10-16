@@ -1,8 +1,13 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const cloud = document.querySelector('.clouds');
+const refresh = document.querySelector('.refresh');
+const score = document.querySelector('.score-points');
+let millisecond = 0;
+let second = 0;
 
 const jump = () =>{
+
     mario.classList.add('jump');
 
     setTimeout(() => {
@@ -10,6 +15,16 @@ const jump = () =>{
     } ,500);
 
 }
+
+const pontos = setInterval(() => { 
+    if ((millisecond += 10) == 1000) {
+        millisecond = 0;
+        second++;
+      }
+      score.innerText = returnData(second);
+}, 10);
+  
+
 
 const loop = setInterval(() => {
     const pipePosition = +window.getComputedStyle(pipe).left.replace('px','');
@@ -32,9 +47,18 @@ const loop = setInterval(() => {
         cloud.style.animation = 'none';
         cloud.style.left = `${cloudPosition}px`;
 
+        refresh.style.display = 'block';
+
+        clearInterval(pontos);
         clearInterval(loop);
 
     }
 },10)
+
+
+
+function returnData(input) {
+    return input >= 10 ? input : `${input}`
+}
 
 document.addEventListener("keydown", jump);

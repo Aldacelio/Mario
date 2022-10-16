@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +15,48 @@
     position: relative;
     background: linear-gradient(#87ceeb, #e0f6ff);
     overflow: hidden;
+}
+
+.score{
+    left: 2vw;
+    top: 2vh;
+    position: absolute;
+    border: 2px solid #333;
+    width: 20vw;
+    height: 5vh;
+}
+
+.score .titulo{
+    position: absolute;
+    padding: 0.2vh 0.2vw;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    width: 50%;
+}
+
+.score .score-points {
+    position: absolute;
+    left: 9vw;
+    top: 1.5vh;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.refresh{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    opacity: 0.2;
+    display: none;
+}
+
+.refresh-img{
+    position: absolute;
+    width: 20vw;
+    left: 40vw;
+    top: 27vh; 
 }
 
 .pipe{
