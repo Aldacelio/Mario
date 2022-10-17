@@ -32,7 +32,7 @@
 
 <h1 align="center" id="funcionalidades">Funcionalidades do projeto</h1>
 
-<p align="justify">O Mario pula utilizando qualquer tecla que você deseje, tamb</p>
+<p align="justify">O Mario pula utilizando qualquer tecla que você deseje, também possui um placar que vai definir o quão longe conseguiu chegar.</p>
 
 <div align="center">
 <!--<img src="" width="600px" height="400px">-->
