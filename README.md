@@ -11,7 +11,7 @@
 <!--AQUI COMEÇA O README-->
 <h1 align="center" id="titulo">Mario</h1>
 
-<img src="" width="1300px">
+<img src="https://github.com/Aldacelio/Mario/blob/main/image/banner.jpg" width="1300px">
 
 <h1 align="center" id="badge">Badges</h1>
 
@@ -28,14 +28,14 @@
 
 <h1 align="center" id="descricao">Descrição</h1>
 
-<p align="justify" width="10px"></p>
+<p align="justify" width="10px">Projeto de um jogo simples do Mario, onde o objetivo é o Mario não bater nos canos que são tidos com obstáculos no jogo. O mesmo não tem um ponto de vitória, objetivo é conseguir o máximo de pontos possível.</p>
 
 <h1 align="center" id="funcionalidades">Funcionalidades do projeto</h1>
 
-<p align="justify"></p>
+<p align="justify">O Mario pula utilizando qualquer tecla que você deseje, tamb</p>
 
 <div align="center">
-<img src="" width="600px" height="400px">
+<!--<img src="" width="600px" height="400px">-->
 </div>
 
 <h1 align="center" id="tecnologias">Tecnologias utilizadas</h1>
